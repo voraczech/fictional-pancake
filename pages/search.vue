@@ -30,6 +30,9 @@ import { debounce } from "lodash";
 import { mapState, mapActions } from "vuex";
 
 export default {
+  head: {
+    title: "Search",
+  },
   data() {
     return {
       query: "",
